@@ -22,17 +22,18 @@ Clone the repository:
 git clone https://github.com/yourusername/book-recommender-system.git
 ```
 Navigate to the project folder:
-
+```
 cd book-recommender-system
+```
 Install required libraries:
-
+```
 pip install -r requirements.txt
-
-Ensure the .pkl files (popular.pkl, pt.pkl, books.pkl, similarity_scores.pkl) are present in the project directory.
+```
 
 Run the application:
-
+```
 python app.py
+```
 **Usage**
 Homepage:
 Browse the top 50 books, along with their ratings and votes.
