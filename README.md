@@ -16,3 +16,46 @@ This project is a web application built using Flask that provides book recommend
     - `books.pkl`: Detailed book information.  
     - `similarity_scores.pkl`: Precomputed similarity scores.
 
+Steps to Run the Project Locally
+Clone the repository:
+```
+git clone https://github.com/yourusername/book-recommender-system.git
+```
+Navigate to the project folder:
+
+cd book-recommender-system
+Install required libraries:
+
+pip install -r requirements.txt
+
+Ensure the .pkl files (popular.pkl, pt.pkl, books.pkl, similarity_scores.pkl) are present in the project directory.
+
+Run the application:
+
+python app.py
+**Usage**
+Homepage:
+Browse the top 50 books, along with their ratings and votes.
+Recommendations:
+Go to the "Recommend" page.
+Enter the title of a book in the input field.
+Receive a list of books similar to your input, complete with details like title, author, and cover image.
+Project Structure
+perl
+Copy
+Edit
+book-recommender-system/
+│
+├── templates/
+│   ├── index.html           # Homepage displaying popular books
+│   ├── recommend.html       # Recommendation page
+│
+├── static/                  # Optional folder for static assets like CSS, JS, and images
+│
+├── app.py                   # Main Flask application
+├── popular.pkl              # Data for top 50 books
+├── pt.pkl                   # Pivot table for similarity
+├── books.pkl                # Detailed book information
+├── similarity_scores.pkl    # Precomputed similarity scores
+├── requirements.txt         # List of dependencies
+└── README.md                # Project documentation
