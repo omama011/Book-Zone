@@ -34,29 +34,3 @@ Run the application:
 ```
 python app.py
 ```
-**Usage**
-Homepage:
-Browse the top 50 books, along with their ratings and votes.
-Recommendations:
-Go to the "Recommend" page.
-Enter the title of a book in the input field.
-Receive a list of books similar to your input, complete with details like title, author, and cover image.
-Project Structure
-perl
-Copy
-Edit
-book-recommender-system/
-│
-├── templates/
-│   ├── index.html           # Homepage displaying popular books
-│   ├── recommend.html       # Recommendation page
-│
-├── static/                  # Optional folder for static assets like CSS, JS, and images
-│
-├── app.py                   # Main Flask application
-├── popular.pkl              # Data for top 50 books
-├── pt.pkl                   # Pivot table for similarity
-├── books.pkl                # Detailed book information
-├── similarity_scores.pkl    # Precomputed similarity scores
-├── requirements.txt         # List of dependencies
-└── README.md                # Project documentation
