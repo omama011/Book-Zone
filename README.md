@@ -1,1 +1,2 @@
 # Book-Zone
+This project is a web application built using Flask that provides book recommendations based on user input. It utilizes preprocessed data and similarity scores to suggest books similar to the user's choice. The app also displays a list of popular books with details like author, ratings, and votes.
